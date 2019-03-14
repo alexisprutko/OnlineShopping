@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css?family=EB+Garamond|Indie+Flower");
+body {
+  background-color: #f0f5f5;
+  font-family: 'EB Garamond', serif;
+  font-size: 20px; }
+  body a {
+    text-decoration: none;
+    color: inherit; }
+  body ul {
+    list-style: none; }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: #ffffff; }
+
+.navMenu {
+  font-size: 36px;
+  font-family: "Indie Flower", cursive;
+  font-weight: bold;
+  display: flex; }
+  .navMenu li {
+    padding: 5px 15px; }
+
+.logo {
+  background-image: url(../images/logo.jpg);
+  height: 150px;
+  width: 150px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+.cart {
+  display: flex;
+  align-items: center; }
+  .cart i {
+    padding: 5px 15px;
+    color: red; }
+  .cart span {
+    font-size: 36px;
+    font-weight: bold; }
+
+footer {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  background-color: #222; }
+  footer li {
+    color: grey;
+    padding: 10px 10px; }
+  footer li:first-child {
+    color: #fff; }
+  footer input {
+    padding: 10px 40px;
+    font-size: 16px; }
+  footer input:focus {
+    outline: none; }
+  footer button {
+    padding: 13px 20px;
+    margin-left: 10px;
+    background-color: #007a99;
+    border: none; }
+  footer button:focus {
+    outline: none; }
+
+.newsletter {
+  color: #fff;
+  width: 50%; }
+
+.socialIcon li {
+  text-align: center;
+  margin-top: 10px;
+  height: 30px;
+  width: 30px;
+  border: 1px solid #fff;
+  background-color: #fff;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%; }
+
+.socialIcon i {
+  color: #222; }
+
+.mainWrapperContainer {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
+  .mainWrapperContainer div {
+    background-color: #f1f1f1;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px; }
