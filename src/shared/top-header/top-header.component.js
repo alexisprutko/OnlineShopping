@@ -17,7 +17,7 @@ import {Link} from 'react-router-dom';
                     <ul className='navMenu'>
                         {this.props.menuItems.map(function(menuItems,key){
                             return(
-                                <Link to='/productlist' ><li key={key + "key"}>{menuItems}</li></Link>                           
+                                <Link to='/productlist' key={key + "key"} ><li>{menuItems}</li></Link>                           
                             )
                         })}
                     </ul>
